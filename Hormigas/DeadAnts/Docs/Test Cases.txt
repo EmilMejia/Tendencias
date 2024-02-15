@@ -1,0 +1,50 @@
+Test Scenarios:
+Positive Scenarios
+
+Standard Input
+
+Description: Input string contains a mix of intact ants ("ant") and scattered parts.
+Input: "..ant..ant.ant...ant.ant..ant.ant....ant..ant.ant.ant...ant.."
+Expected Output: Correct count of surviving and deceased ants.
+No Ants
+
+Description: Input string does not contain any "ant" substrings or parts.
+Input: "..."
+Expected Output: Zero surviving and deceased ants.
+Only Surviving Ants
+
+Description: Input string contains only intact ants with no scattered parts.
+Input: "antantant"
+Expected Output: Correct count of surviving ants, zero deceased ants.
+Only Scattered Parts
+
+Description: Input string contains only scattered parts with no intact ants.
+Input: "aannnttt"
+Expected Output: Zero surviving ants, correct calculation of deceased ants based on the maximum count of any single part.
+Mixed Parts Closely
+
+Description: Input string contains scattered parts closely resembling "ant" but not forming the exact substring.
+Input: "ananttta"
+Expected Output: Correct handling of near-miss patterns and accurate count of deceased ants.
+Negative Scenarios
+
+Invalid Characters
+
+Description: Input string contains characters outside the expected range ('a', 'n', 't', '.').
+Input: "ant!ant?xx"
+Expected Action: Validate input and either reject it, ignore invalid characters, or provide a meaningful error message.
+Empty String
+
+Description: Input string is empty.
+Input: ""
+Expected Action: Handle gracefully by either prompting for valid input or indicating no ants are present.
+Extremely Long String
+
+Description: Input string is exceptionally long, testing performance and handling of large inputs.
+Input: A very long string repeating "ant" and scattered parts.
+Expected Action: Ensure the application can handle large inputs without performance degradation or errors.
+Non-string Input Handling
+
+Description: 
+Input: Non-string data (e.g., numeric, binary)
+Expected Action: Reject non-string inputs with an appropriate error message.
