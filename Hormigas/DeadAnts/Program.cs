@@ -8,13 +8,20 @@ string input = Console.ReadLine();
 
 
 int survivors = CountOccurrences(input, "ant");
+string antparts = input.Replace("ant", ".");
+
+var PartsCount = new Dictionary<char, int> 
+{
+    { 'a',antparts.Count(c => c == 'a') },
+    { 'n',antparts.Count(c => c == 'n') },
+    { 't',antparts.Count(c => c == 't') }
+
+};
 
 
-
-
-
+int deadants = PartsCount.Values.Max();
 Console.WriteLine($"Number of ants alive: {survivors}");
-Console.WriteLine($"Number of dead ants");
+Console.WriteLine($"Number of dead ants: {deadants}");
 
 
 static int CountOccurrences(string str, string substr) 
