@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Emil\\Desktop\\Tendencias\\Hormigas\\DeadAnts\\DeadAnts.csproj",
+      "projectUniqueName": "C:\\Users\\Emil\\Desktop\\Python-testing\\Hormigas\\DeadAnts\\DeadAnts.csproj",
       "projectName": "DeadAnts",
-      "projectPath": "C:\\Users\\Emil\\Desktop\\Tendencias\\Hormigas\\DeadAnts\\DeadAnts.csproj",
+      "projectPath": "C:\\Users\\Emil\\Desktop\\Python-testing\\Hormigas\\DeadAnts\\DeadAnts.csproj",
       "packagesPath": "C:\\Users\\Emil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Emil\\Desktop\\Tendencias\\Hormigas\\DeadAnts\\obj\\",
+      "outputPath": "C:\\Users\\Emil\\Desktop\\Python-testing\\Hormigas\\DeadAnts\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Emil\\AppData\\Roaming\\NuGet\\NuGet.Config",
